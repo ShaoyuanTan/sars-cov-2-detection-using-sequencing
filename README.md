@@ -76,6 +76,6 @@ cut -f2,3 $sample.kraken > $sample.kraken_for_krona
 ktImportTaxonomy -i -k -o krona_$sample.html $sample.kraken_for_krona
 
 ```
-##Contact Me
+## Contact Me
 
 Comments and discussions are welcome, email: stan@stjude.org
