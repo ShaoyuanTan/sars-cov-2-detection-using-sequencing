@@ -1,4 +1,4 @@
-# sars-cov-2 detection using sequencing and bioinformatics
+# sars-cov-2 detection from clinical samples using sequencing and bioinformatics method
 
 The purpose here is to provide a hand-on method to analyze sequencing data that come from COVID suspicious samples.
 
