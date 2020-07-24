@@ -7,7 +7,7 @@ Questions we are trying to answer are:
 
 Pipeline input is Illumina short-reads sequencing data; Output includes number of reads mapped to SARS-CoV-2 reference, possible consensus genome generation if SARS-CoV-2 was detected, and pie chart of sample composition.
 
-## Sequencing reads pre-process
+## Sequencing reads pre-processing
 
 This step filtered out adapters and low quality regions.
 Software: Trimmomatic-0.39 (http://www.usadellab.org/cms/?page=trimmomatic); FastQC (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
@@ -27,7 +27,7 @@ fastqc -o outputfolder $path-to-outputfolder/reverse_paired.fq.gz
 
 ```
 
-## Mapping sequencing reads to SARS-CoV-2 reference
+## Mapping based on SARS-CoV-2 reference 
 
 Software: bwa (https://github.com/lh3/bwa); samtools (https://github.com/samtools/samtools)
 
