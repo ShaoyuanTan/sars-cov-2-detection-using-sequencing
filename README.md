@@ -35,7 +35,7 @@ samtools index $sample_sorted.bam
 
 ## Metagenomic analysis
 
-Software:
+Software: Kraken2 (https://ccb.jhu.edu/software/kraken2/); Krona (https://github.com/marbl/Krona)
 
 ```
 kraken2 --db minikraken_8GB_20200312 --threads 20 --gzip-compressed $sample.fq.gz > $sample.kraken
